@@ -24,7 +24,7 @@
 
     function my_operation_tab($row) {
         echo '<div class="card mb-3">';
-        if (isset($row['photo'])) {
+        if (strlen($row['photo']) > 0) {
             echo '<img src="'.$row['photo'].'" class="card-img-top">
             <hr class="my-4">';
         }
@@ -40,7 +40,7 @@
                 <p class="card-text"><small class="text-muted"><strong>Date de début:&nbsp;</strong>'.$row['date_debut'].'</small></p>
                 <p class="card-text"><small class="text-muted"><strong>Date de fin:&nbsp;</strong>'.$row['date_fin'].'</small></p>
             </div>
-            <a class="btn btn-outline-primary btn-sm my-2 my-sm-0" href="add-vehicules.php">Modifier l\'opération de maintenance</a>
+            <a class="btn btn-outline-primary btn-sm my-2 my-sm-0">Modifier l\'opération de maintenance</a>
         </div>';
     }
 

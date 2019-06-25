@@ -1,16 +1,5 @@
 <?php
-    print_r($_GET);
     $array_vehicule = $_GET;
-    echo '</br>';
-    echo $array_vehicule[0];
-    echo '</br>';
-    echo $array_vehicule[1];
-    echo '</br>';
-    echo $array_vehicule[2];
-    echo '</br>';
-    echo $array_vehicule[3];
-    echo '</br>';
-    echo $array_vehicule[4];
 ?>
 
 <html>

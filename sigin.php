@@ -9,8 +9,8 @@
     <body>
         <form class="form-signin" action="user-profile-link.php">
             <h2 style="text-align:center">Connectez-vous</h2>
-            <input type="nom" id="inputEmail" class="form-control" placeholder="Email">
-            <input type="password" id="inputPassword" class="form-control" placeholder="Mot de Passe">
+            <!--<input type="nom" id="inputEmail" class="form-control" placeholder="Email">
+            <input type="password" id="inputPassword" class="form-control" placeholder="Mot de Passe">-->
             <div class="checkbox mb-3 form-group">
                 <select required name="user-profile" class="custom-select">
                     <option selected="" value="">Sélectionner votre profile</option>

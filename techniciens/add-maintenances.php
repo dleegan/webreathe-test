@@ -1,6 +1,5 @@
 <?php
     $name = $_GET['id'];
-    echo "id: ".$name."</br>";
 ?>
 <html>
     <head>
@@ -83,7 +82,7 @@
                                 <hr class="my-3">
 
                                 <label for="exampleInputEmail1">Image:</label>
-                                <input name="image" type="url" class="form-control" id="exampleInputNom" aria-describedby="nomHelp" placeholder="Entrer le lien de l'image" required>
+                                <input name="image" type="url" class="form-control" id="exampleInputNom" aria-describedby="nomHelp" placeholder="Entrer le lien de l'image">
 
                             </div>
                             <input class="btn btn-primary btn-lg" type="submit" name="formValidate" value="Valider">
